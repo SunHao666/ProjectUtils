@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app= "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e4e4"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/default_big_gray_text"
+        android:text="@string/yinzhefeng" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/default_small_gray_text"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="@string/yinzhefeng" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/default_small_gray_text"
+        android:freezesText="true"
+        android:text="点击注册同意..." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <com.sunh.projectutils.view.SettingView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:leftImg="@mipmap/ic_launcher"
+        app:leftText="邀请好友"
+        app:righttext="未认证"
+        />
+    <com.sunh.projectutils.view.SettingView
+        android:id="@+id/set1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_marginTop="@dimen/default_margin_15dp"
+        />
+    <com.sunh.projectutils.view.SettingView
+        android:id="@+id/set2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_marginTop="@dimen/default_margin_15dp"
+        />
+        />
+
+</LinearLayout>

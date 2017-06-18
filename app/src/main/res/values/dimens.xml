@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="default_small_gray_text">12sp</dimen>
+    <dimen name="default_big_gray_text">15sp</dimen>
+    <dimen name="default_margin_5dp">5dp</dimen>
+    <dimen name="default_margin_10dp">10dp</dimen>
+    <dimen name="default_margin_15dp">15dp</dimen>
+</resources>

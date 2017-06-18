@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingView">
+        <attr name="leftText" format="string"/>
+        <attr name="leftImg" format="reference"/>
+        <attr name="leftTextSize" format="dimension"/>
+        <attr name="leftImgVisible" format="boolean"/>
+        <attr name="leftTextVisible" format="boolean"/>
+        <attr name="righttext" format="string"/>
+        <attr name="rightImg" format="reference"/>
+        <attr name="rightTextSize" format="dimension"/>
+        <attr name="rightImgVisible" format="boolean"/>
+        <attr name="rightTextVisible" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>
